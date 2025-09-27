@@ -1,0 +1,363 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+
+  display: flex; /* Включаем Flexbox */
+  flex-direction: column; /* Контент располагается вертикально */
+  justify-content: flex-start; /* Центрируем горизонтально */
+   max-width: 1600px;
+   margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+  .menu {
+    display: none;
+  }
+  .Varka img{
+  display: none;
+}
+  
+  .burger_btn {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    padding: 42px 160px;
+  }
+  .Words-About-Farka{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  
+}
+.Main-Varka button{
+    color: rgba(27, 26, 26, 1);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding: 11px 20px;
+cursor: pointer;
+border: none;
+border-radius: 20px;
+margin-top: 30px;
+margin-left: 0;
+}
+  .nav-menu.active .menu {
+    top: 130px;
+    left: 160px;
+  }
+    .header-text{
+    text-align: center;
+    margin: 0 auto;
+  }
+    .header-text h1{
+   font-size: 44px;
+  }
+}
+    @media (max-width: 645px) {
+  .nav-menu.active .menu {
+    top: 140px;
+    left: 90px;
+    right: 90px;
+  }
+
+}
+    @media (max-width: 500px) {
+  .nav-menu.active .menu {
+    top: 140px;
+    left: 10px;
+
+  }
+}
+ 
+@media (max-width: 600px) {
+  .container {
+    margin: 0 auto;
+    padding: 42px 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin: 0 auto;
+    padding: 42px 10px;
+  }
+}
+@media (max-width: 425px) {
+  .nav-menu.active .menu {
+    top: 130px;
+    left: 10px;
+    right: 10px;
+  }
+}
+ @media (max-width: 425px) {
+  .nav-menu.active .menu {
+    top: 140px;
+    left: 0;
+    right: 0;
+  }
+  .Words-About-Farka p{
+color: rgba(64, 62, 59, 1);
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+max-width: 184px;
+padding-bottom: 30px;
+}
+ul{
+  width: 120px;
+}
+.menu-link{
+color: aliceblue;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+padding-right: 0;
+}
+
+
+  .header-text h1{
+    padding: 20px 0;
+    color: rgb(94, 89, 76);
+font-family: Poppins;
+font-size: 44px;
+font-weight: 400;
+line-height: 70.4px;
+}
+
+  
+  .main .container {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  
+ 
+}
+@media (max-width:340px) {
+  ul{
+  width: 110px;
+  
+}
+ .nav-menu.active .menu {
+    top: 140px;
+    left: 0;
+    right: 10px;
+  }
+}
+@media (max-width:330px) {
+  ul{
+  width: 100px;
+  
+}
+.menu-item a:focus {
+  background-color: black;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+  .burger_btn {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+}
